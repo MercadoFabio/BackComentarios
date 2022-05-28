@@ -12,11 +12,11 @@ namespace BEComentarios.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ComentarioController : ControllerBase
+    public class ComentariosController : ControllerBase
     {
         private readonly AplicationDbContext _context;
 
-        public ComentarioController(AplicationDbContext context)
+        public ComentariosController(AplicationDbContext context)
         {
             _context = context;
         }
